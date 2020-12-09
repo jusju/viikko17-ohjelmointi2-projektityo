@@ -10,11 +10,22 @@ public class Artist {
         this.name = name;
     }
 
-    public long getId() {
-        return this.id;
+    public Artist(String name) {
+        this.name = name;
     }
 
-    public String getName() {
+    
+    
+
+    public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public String getName() {
         return this.name;
     }
 
