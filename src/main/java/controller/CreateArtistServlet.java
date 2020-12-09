@@ -33,7 +33,7 @@ public class CreateArtistServlet extends HttpServlet {
         } else {
             Artist artist = new Artist(artistName);
             artistDao.storeArtist(artist);
-            response.sendRedirect("/WEB-INF/views/index.jsp");
+            response.sendRedirect("/");
         }
     }
 }
